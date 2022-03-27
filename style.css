@@ -6,6 +6,7 @@
 
 :root {
   --primary-background-color: #ffffff; /* main background image */
+  --secondary-background-color: #F9F9F9; /* secondary background color used in grid */
   --hover-color: #f2f2f2; /* hover color */
   --text-color-dark: #030303; /* For texts such as video titles, active filters. etc*/
   --text-color-light: #606060; /* Used for video card description on grid*/
@@ -195,8 +196,106 @@ select {
 /*-----------------------------*/
 /* Video grid section classes */
 /*-----------------------------*/
+.main_video_container{
+  background-color: var(--secondary-background-color);
+  height: 100%;
+  padding: 1rem .5rem;
+  /* overflow-y: scroll; */
+  margin-left: 80px;
+  
 
-/* Write your styles here */
+}
+
+.video-grid{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  width:100%;
+  gap: 1rem;
+  
+
+  
+}
+
+/* Video card styling */
+
+.video_card{
+  /* display:flex;
+  flex-direction:column;
+  align-items:center; */
+  width:270px;
+  /* margin-right:1rem;
+  margin-bottom:2rem; */
+}
+
+.video_thumbnail{
+  width:100%;
+  height:170px;
+  cursor:pointer;
+}
+
+.video_thumbnail img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+
+.video_footer{
+  display:flex;
+  flex-direction:row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding:1rem 0;
+  column-gap: .5rem;
+}
+.channel_icon{
+  width:20%;
+}
+
+.channel_icon img{
+  width:36px;
+  height:36px;
+  margin-right:.5rem;
+  border-radius:50%;
+  object-fit: cover;
+  /* margin-top:1rem;
+  margin-right: 1rem; */
+}
+
+
+
+.video_info{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+.title_group{
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+  justify-content:flex-start;
+ 
+}
+
+.dot_options{
+  cursor: pointer;
+  padding-top:.5rem;
+}
+
+.video_title h3{
+  font-size: 1rem;
+  color: var(--text-color-dark);
+  line-height: 1.5rem;
+  font-weight:500;
+  margin-bottom:.5rem;
+}
+
+.channel_name, .vid_views{
+  color: var(--text-color-light);
+  font-size: .8rem;
+}
 
 /*-----------------------------*/
 /*  End Video grid section classes */
