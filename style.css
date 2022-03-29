@@ -416,6 +416,105 @@ select {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          Styling for Settings page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
+.settings{
+ display: flex;
+ flex-direction: row;
+}
+.column1{
+  background-color: rgb(230, 230, 230);
+  
+}
+.column2{
+  padding-left: 47px;
+  padding-top: 35px;
+  background-color: #f9f9f9;
+  flex: 75%;
+ 
+}
+.column2-border{
+ border-bottom: rgb(200, 200, 200);
+ margin-right: 70px;
+} 
+
+.settings-setting h4{
+  color: #606060;
+  margin-top: 25px;
+  padding-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+.settings-options h4{
+  padding: 15px 0px;
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  padding-right: 45px;
+}
+.settings-options :hover{
+  background-color: rgba(40, 68, 33, 0.11);
+}
+.settings-options :active{
+  background-color: rgba(40, 68, 33, 0.11);
+
+}
+.bold-brief{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-bottom: 30px;
+}
+.setting-specific h2{
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+.grey-brief{
+  font-weight: normal;
+  color:#606060;
+  font-size: 15px;
+}
+.setting-specific{
+  
+}
+.setting-specific-wrapper{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.settings-picture{
+  width: 18%;
+  margin-right: 70px;
+}
+.bold-brief-channel{
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.bold-brief-small-channel{
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+.grey-brief-channel{
+  font-weight: normal;
+  color:#606060;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+.channel-img{
+  border-radius: 50px;
+  width: 5%;
+}
+.your-channel h5{
+  color: #065fd4;
+  font-size: 15px;
+  
+
+}
+
+
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for Settings page                                                  */
