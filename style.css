@@ -503,7 +503,185 @@ svg.bi.bi-gear{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          Styling for Settings page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
+.settings {
+  display: flex;
+  flex-direction: row;
+}
+.column1 {
+  background-color: rgb(230, 230, 230);
+  min-height: 100vh;
+  position: fixed;
+  
+}
+.column2 {
+  padding-left: 47px;
+  padding-top: 35px;
+  background-color: #f9f9f9;
+  flex: 75%;
+  margin-left: 15rem;
+}
+.column2-border {
+  border-bottom: rgb(200, 200, 200);
+  margin-right: 70px;
+}
 
+.settings-setting h4 {
+  color: #606060;
+  margin-top: 25px;
+  padding-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+.settings-options h4 {
+  padding: 15px 0px;
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  padding-right: 45px;
+}
+.settings-options :hover {
+  background-color: rgba(40, 68, 33, 0.11);
+}
+.settings-options :active {
+  background-color: rgba(40, 68, 33, 0.11);
+}
+.bold-brief {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+.setting-specific h2 {
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+.grey-brief {
+  font-weight: normal;
+  color: #606060;
+  font-size: 15px;
+}
+.setting-specific-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.settings-picture {
+  width: 18%;
+  margin-right: 70px;
+}
+.bold-brief-channel {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.bold-brief-small-channel {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin-right: 150px;
+}
+.grey-brief-channel {
+  font-weight: normal;
+  color: #606060;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+.your-channel {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 22px;
+}
+.channel-img {
+  border-radius: 50px;
+  width: 29%;
+  margin-right: 23px;
+  margin-top: 5px;
+  margin-bottom: 23px;
+}
+.your-channel h3 {
+  color: #065fd4;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.display-pix {
+  display: flex;
+}
+.display-pix {
+  display: flex;
+  justify-content: start;
+}
+.display-pix p {
+  margin-left: 15px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 16px;
+  letter-spacing: 0.5px;
+}
+.channel-img-name{
+  display: flex;
+}
+.channel-img-name p{
+  padding-top: 18px;
+  margin-bottom: 20px;
+}
+.border-bottom-space{
+  margin-bottom: 15px;
+}
+.account h4{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 20px;
+}
+.account p{
+  font-weight: normal;
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.google-account h4{
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin-right: 111px;
+  margin-top: 0px;
+}
+.google-account-link h3{
+  color: #065fd4;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+.google-account-options{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.google-account-link-{
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  border-right: 2px solid rgb(200, 200, 200) ; height: 20px;
+  padding-right: 5px;
+}
+.no-membership-wrapper{
+  display: flex;
+  justify-content: flex-start;
+}
+#get-premium{
+  padding-left: 5px;
+  margin-bottom: 0px;
+  color: #065fd4;
+  font-size: 14px;
+  font-weight: 500;
+}
+.membership{
+  padding-left: 20px;
+}
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for Settings page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
