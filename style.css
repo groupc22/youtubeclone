@@ -518,7 +518,7 @@ svg.bi.bi-gear{
   padding-top: 35px;
   background-color: #f9f9f9;
   flex: 75%;
-  padding-left: 4rem;
+  margin-left: 15rem;
 }
 .column2-border {
   border-bottom: rgb(200, 200, 200);
