@@ -462,6 +462,7 @@ select {
   font-size: 1rem;
   line-height: 2rem;
   margin-bottom: 30px;
+  padding-top: 15px;
 }
 .setting-specific h2 {
   font-weight: normal;
@@ -471,8 +472,6 @@ select {
   font-weight: normal;
   color: #606060;
   font-size: 15px;
-}
-.setting-specific {
 }
 .setting-specific-wrapper {
   display: flex;
@@ -573,11 +572,6 @@ select {
   justify-content: flex-start;
   margin-top: 40px;
 }
-/* .no-membership-border{
-  border-right:0.9px rgb(200, 200, 200);
-  border-width: 16px;
-  
-} */
 .google-account-link-{
   color: #000;
   font-size: 14px;
