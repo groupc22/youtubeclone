@@ -422,7 +422,7 @@ select {
 }
 .column1{
   background-color: rgb(230, 230, 230);
-  
+  height: 100vh;
 }
 .column2{
   padding-left: 47px;
@@ -503,15 +503,34 @@ select {
   font-size: 15px;
   margin-bottom: 12px;
 }
+.your-channel{
+  align-items: center;
+}
 .channel-img{
   border-radius: 50px;
   width: 5%;
 }
-.your-channel h5{
+.your-channel h3{
   color: #065fd4;
-  font-size: 15px;
-  
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 5px;
 
+}
+.display-pix{
+  display: flex;
+
+}
+.display-pix{
+  display: flex;
+  justify-content: start;
+}
+.display-pix p{
+  margin-left: 15px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 16px;
+  letter-spacing: 0.5px;
 }
 
 
