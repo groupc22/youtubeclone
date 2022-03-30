@@ -480,81 +480,44 @@ svg.bi.bi-gear{
 /*                                          Styling for Contact page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing:border-box
-}
 
 
-h1.title-con{
-  font-family:'YouTube Sans',sans-serif;
+.title-con{
+  
   font-weight:600;
   margin-bottom:16px;
   font-size:48px;
   line-height:56px
 }
 
-h1{
-  font-family:'YouTube Sans',sans-serif;
-  font-size:24px;
-  font-weight:600;
-  line-height:30px;
-  margin-bottom:24px
-}
 
-h2,h3{
-  font-family:'YouTube Sans',sans-serif;
+.con-h2{
+  
   font-size:16px;
   font-weight:600;
   line-height:24px;
   margin-bottom:16px
 }
 
-h4{
-  font-size:16px;
-  font-weight:500;
-  line-height:24px;
-  margin-bottom:12px
-}
 
-p,ul,ol,li{
+
+.con-p,.con-ul,.con-li{
   font-size:16px;
   font-weight:400;
   line-height:24px
 }
 
 
-p,ul,ol{
+.con-p,.con-ul{
   margin-bottom:24px
 }
 
-li{
+.con-li{
   margin-left:32px;
   margin-bottom:12px
 }
 
-a{
-  text-decoration:none;
-  cursor:pointer
-}
 
-
-
-
-
-
-
-
-body{
-  height: 100%;
-  font-family:'Roboto',sans-serif;
-  background:#fff;
-  color:#333;
-  font-weight:400;
-  background: transparent;
-  font-size: 100%;
-}
 
 #body-wrapper-con{
   height: 100%;
