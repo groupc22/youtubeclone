@@ -190,6 +190,10 @@ select {
 /*-----------------------------*/
 
 /*-----------------------------*/
+/*          Filter             */
+/*-----------------------------*/
+
+/*-----------------------------*/
 /* NOTIFICATION DROP DOWN CLASSES */
 /*-----------------------------*/
 .notification_section {
@@ -275,13 +279,52 @@ select {
 
 /*-----------------------------*/
 /* Side bar Navigation classes */
-/*-----------------------------*/
-
-/* Write your styles here */
 
 /*-----------------------------*/
-/*  End side Navigation classes */
+
+.filters{
+  position: fixed;
+  left: 250px;
+  top: 60px;
+  width: calc(100% - 250px);
+  height: 60px;
+  background: #fff;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.filters::-webkit-scrollbar{
+  display: none;
+}
+
+
+.filter-options{
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #f0f0f0;
+  border: 1px solid #dbdbdb;
+  text-transform: capitalize;
+  margin-right: 10px;
+  color: #242424;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.filter-options.active{
+  color: #fff;
+  background: #242424;
+}
+
 /*-----------------------------*/
+/*          End Filter         */
+/*-----------------------------*/
+
 
 /*-----------------------------*/
 /* Video grid section classes */
@@ -343,8 +386,128 @@ select {
   gap: 1rem;
 }
 
-/* Video card styling */
 
+/*-----------------------------*/
+/* Side bar Navigation classes */
+/*-----------------------------*/
+
+
+.side-bar {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  min-width: 250px;
+  width: 265px;
+  max-height: ;
+  height: calc(100% - 70px);
+  background: #fff;
+  padding-right: 10px;
+}
+
+.scroll {
+  border: none;
+  padding: 5px;
+  font: 24px/36px sans-serif;
+  width: 265px;
+  height: 700px;
+  overflow: scroll;
+  }
+  ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+  }
+
+  .side-menu-item {
+    display: flex;
+    width: 265px;
+    line-height: 10%;
+    align-items: center;
+    padding: 1px 20px;
+  }
+
+  .links {
+    display: block;
+    width: 100%;
+    line-height: 10%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .side-menu-item-2 {
+    display: flex;
+    width: 280px;
+    line-height: 100%;
+    align-items: center;
+    padding: 1px 22px;
+  }
+
+  .links-2 {
+  display: inline-block;
+  width: 240px;
+  line-height: 100%;
+  padding: 10px 20px;
+  align-items: center;
+  text-transform: none;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.side-menu-item:hover,
+.links.active {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.seperator{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.side-menu-footer {
+  margin: 25px;
+  margin-top: 1px;
+  margin-bottom: 14px;
+  width: 82%;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+.side-menu-footer-primary {
+  color: inherit;
+}
+
+.copyright {
+  color: #4e4e4e;
+  font-weight: lighter;
+  font-size: 14px;
+  margin: 25px;
+  margin-top: 1px;
+  margin-bottom: 14px;
+
+  
 .video_card {
   width: 270px;
 }
@@ -454,8 +617,9 @@ select {
 /* Video card styling */
 
 /*-----------------------------*/
-/*  End Video grid section classes */
+/*  End side Navigation classes */
 /*-----------------------------*/
+
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for Landing page                                                  */
@@ -564,6 +728,7 @@ select {
   border-radius: 2px;
   padding: 0px 6px;
 }
+  
 @media(max-width: 1200px){
   /*large devices (lg)*/
   /* .video-box{
@@ -1080,3 +1245,4 @@ font-weight: 400;
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for Settings page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
+
