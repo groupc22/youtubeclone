@@ -184,171 +184,172 @@ select {
 /*-----------------------------*/
 
 /*-----------------------------*/
+/*          Filter             */
+/*-----------------------------*/
+
+.filters{
+  position: fixed;
+  left: 250px;
+  top: 60px;
+  width: calc(100% - 250px);
+  height: 60px;
+  background: #fff;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.filters::-webkit-scrollbar{
+  display: none;
+}
+
+.filter-options{
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #f0f0f0;
+  border: 1px solid #dbdbdb;
+  text-transform: capitalize;
+  margin-right: 10px;
+  color: #242424;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.filter-options.active{
+  color: #fff;
+  background: #242424;
+}
+
+/*-----------------------------*/
+/*          End Filter         */
+/*-----------------------------*/
+
+
+/*-----------------------------*/
 /* Side bar Navigation classes */
 /*-----------------------------*/
 
-/* Write your styles here */
+.side-bar {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  min-width: 250px;
+  width: 265px;
+  max-height: ;
+  height: calc(100% - 70px);
+  background: #fff;
+  padding-right: 10px;
+}
+
+.scroll {
+  border: none;
+  padding: 5px;
+  font: 24px/36px sans-serif;
+  width: 265px;
+  height: 700px;
+  overflow: scroll;
+  }
+  ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+  }
+
+  .side-menu-item {
+    display: flex;
+    width: 265px;
+    line-height: 10%;
+    align-items: center;
+    padding: 1px 20px;
+  }
+
+  .links {
+    display: block;
+    width: 100%;
+    line-height: 10%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-transform: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .side-menu-item-2 {
+    display: flex;
+    width: 280px;
+    line-height: 100%;
+    align-items: center;
+    padding: 1px 22px;
+  }
+
+  .links-2 {
+  display: inline-block;
+  width: 240px;
+  line-height: 100%;
+  padding: 10px 20px;
+  align-items: center;
+  text-transform: none;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.side-menu-item:hover,
+.links.active {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.seperator{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.side-menu-footer {
+  margin: 25px;
+  margin-top: 1px;
+  margin-bottom: 14px;
+  width: 82%;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+.side-menu-footer-primary {
+  color: inherit;
+}
+
+.copyright {
+  color: #4e4e4e;
+  font-weight: lighter;
+  font-size: 14px;
+  margin: 25px;
+  margin-top: 1px;
+  margin-bottom: 14px;
+}
 
 /*-----------------------------*/
 /*  End side Navigation classes */
 /*-----------------------------*/
-
-/*-----------------------------*/
-/* Video grid section classes */
-/*-----------------------------*/
-.main_video_container{
-  background-color: var(--secondary-background-color);
-  height: 100%;
-  padding: 1rem .5rem;
-  /* overflow-y: scroll; */
-  margin-left: 80px;
-  
-
-}
-
-.video-grid{
-  display:flex;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-  width:100%;
-  gap: 1rem;
-  
-
-  
-}
-
-/* Video card styling */
-
-.video_card{
-  /* display:flex;
-  flex-direction:column;
-  align-items:center; */
-  width:270px;
-  /* margin-right:1rem;
-  margin-bottom:2rem; */
-}
-
-.video_thumbnail{
-  width:100%;
-  height:170px;
-  cursor:pointer;
-}
-
-.video_thumbnail img{
-  width:100%;
-  height:100%;
-  object-fit: cover;
-}
-
-
-.video_footer{
-  display:flex;
-  flex-direction:row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding:1rem 0;
-  column-gap: .5rem;
-}
-.channel_icon{
-  width:20%;
-}
-
-.channel_icon img{
-  width:36px;
-  height:36px;
-  margin-right:.5rem;
-  border-radius:50%;
-  object-fit: cover;
-  /* margin-top:1rem;
-  margin-right: 1rem; */
-}
-
-
-
-.video_info{
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  align-items:flex-start;
-}
-.title_group{
-  display:flex;
-  flex-direction:row;
-  align-items:flex-start;
-  justify-content:flex-start;
- 
-}
-
-.dot_options{
-  cursor: pointer;
-  padding-top:.5rem;
-}
-
-.video_title h3{
-  font-size: 1rem;
-  color: var(--text-color-dark);
-  line-height: 1.5rem;
-  font-weight:500;
-  margin-bottom:.5rem;
-}
-
-.channel_name, .vid_views{
-  color: var(--text-color-light);
-  font-size: .8rem;
-}
-
-/*-----------------------------*/
-/*  End Video grid section classes */
-/*-----------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for Landing page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          Styling for Search page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for Search page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          Styling for About page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for About page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          Styling for Contact page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for Contact page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          Styling for Privacy page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for Privacy page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          Styling for Terms page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for Terms page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          Styling for Settings page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------*/
-/*                                          End Styling for Settings page                                                  */
-/*----------------------------------------------------------------------------------------------------------------*/
