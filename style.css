@@ -882,12 +882,12 @@ font-weight: 400;
   
 }
 
-/*p{
+.terms-p{
   margin-bottom: 32px;
 }
-
-h1,h2,h3{
-  margin-bottom: 32px;*/
+/*h3*/
+.terms-h1,.terms-h2{
+  margin-bottom: 32px;
 }
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for Terms page                                                  */
