@@ -602,6 +602,10 @@ select {
   align-items: center;
   height: 4rem;
   background-color: var(--primary-background-color);
+  position: fixed;
+  width: 100%;
+  top:0;
+  opacity: 0.98;
 }
 .about-nav-links{
   list-style-type: none;
@@ -619,19 +623,22 @@ select {
 .section{
   margin-bottom: 6rem;
 }
+.picture-grid{
+  margin-top: 4rem;
+}
 .about-text-section{
   margin-left: 12%;
   margin-right: 12%;
 }
 .large-h1{
   font-size: 7rem;
-  font-weight: 700;
+  font-weight: 650;
   font-family: 'Work Sans', sans-serif;
   color: #030303;
   line-height: 90px;
-  letter-spacing: -1.5px;
+  letter-spacing: -2px;
   text-rendering: optimizeLegibility;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 
 }
 .large-p{
