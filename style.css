@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          Custom properties                                                     */
@@ -594,6 +595,114 @@ select {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          Styling for About page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
+.about-navbar{
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  background-color: var(--primary-background-color);
+}
+.about-nav-links{
+  list-style-type: none;
+  margin-left: 3.5rem;
+}
+.about-nav-links li{
+  display: inline-block;
+  margin-right: 4rem;
+  font-weight: 600;
+  font-size: .85rem;
+  color: var(--text-color-light);
+  opacity: .8;
+  align-self: auto;
+}
+.section{
+  margin-bottom: 6rem;
+}
+.about-text-section{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.large-h1{
+  font-size: 7rem;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+  color: #030303;
+  line-height: 90px;
+  letter-spacing: -1.5px;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 3rem;
+
+}
+.large-p{
+  font-size: 4rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #030303;
+  line-height: 76px;
+  letter-spacing: -3px;
+  text-rendering: optimizeLegibility;
+}
+.footer-section{
+  background-color: var(--border-color);
+  padding-left: 7%;
+  padding-right: 7%;
+  color: var(--text-color-light);
+}
+.footer-top{
+  display: flex;
+  border-bottom: solid 1px #aaa9a9;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer-top p, .footer-top svg{
+  margin-right: 2rem;
+}
+.fw-bold{
+  font-weight: bold;
+  font-size: .9rem;
+}
+.footer-mid{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px  #aaa9a9;
+}
+.footer-mid div ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-mid div ul li{
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+.footer-bottom div{
+  display: flex;
+}
+.footer-bottom .site-logo{
+  filter: grayscale(100%);
+  opacity: .6;
+}
+.bottom-nav ul{
+  list-style-type: none;
+  padding-left: 4rem;
+  display: inline;
+  margin-top: -0.3rem;
+}
+.bottom-nav ul li{
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: .9rem;
+}
+.footer-bottom div svg{
+  margin-right: 1rem;
+}
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for About page                                                  */
