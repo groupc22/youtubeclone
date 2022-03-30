@@ -480,6 +480,94 @@ svg.bi.bi-gear{
 /*                                          Styling for Contact page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
 
+
+
+.title-con{
+  
+  font-weight:600;
+  margin-bottom:16px;
+  font-size:48px;
+  line-height:56px
+}
+
+
+.con-h2{
+  
+  font-size:16px;
+  font-weight:600;
+  line-height:24px;
+  margin-bottom:16px
+}
+
+
+
+.con-p,.con-ul,.con-li{
+  font-size:16px;
+  font-weight:400;
+  line-height:24px
+}
+
+
+.con-p,.con-ul{
+  margin-bottom:24px
+}
+
+.con-li{
+  margin-left:32px;
+  margin-bottom:12px
+}
+
+
+
+#body-wrapper-con{
+  height: 100%;
+  height:auto;
+  min-height:100%;
+  padding-bottom:65px;
+  position:relative
+}
+
+#header-con{
+  height:56px;
+  padding:16px 24px;
+  position:relative
+}
+
+#logo-icon-con{
+  top:18px;left:24px
+}
+
+.country-code-con{
+  font-size:10px;
+  margin:0 2px 0
+}
+
+#main-content-con{
+  max-width:768px;
+  position:absolute;
+  margin-left:300px;
+  margin-top:-20px;
+  padding-bottom:48px
+}
+
+
+#main-sidebar-con{
+  float:left;
+  width:300px;
+  padding-top:48px;
+  padding-right:24px
+
+}
+
+
+#main-sidebar-con ul{
+  list-style:none
+}
+
+
+
+
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*                                          End Styling for Contact page                                                  */
 /*----------------------------------------------------------------------------------------------------------------*/
