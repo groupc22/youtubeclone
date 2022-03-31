@@ -398,12 +398,12 @@ select {
 /*-----------------------------*/
 
 .side-bar {
-  position: absolute;
+  position: fixed;
   top: 70px;
   left: 0px;
   min-width: 250px;
   width: 265px;
-  /* max-height: ; */
+  max-height: 100%;
   height: calc(100% - 70px);
   background: #fff;
   padding-right: 10px;
@@ -513,6 +513,71 @@ select {
   margin-bottom: 14px;
 }
 
+/*----------------------------------*/
+/* Side bar Navigation ends classes */
+/*----------------------------------*/
+
+
+/*-----------------------------*/
+/* Video grid section classes */
+/*-----------------------------*/
+
+/* Hero cta section */
+.hero-cta,
+.main_container {
+  margin-left: 80px;
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.hero-cta {
+  background-color: var(--primary-background-color);
+  display: flex;
+  /* width: minmax(320px% 100vw); */
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}
+
+.hero-cta .product-logo {
+  margin-top: 2rem;
+}
+
+.hero-cta .product-logo img {
+  width: 320px;
+}
+
+.hero-cta .product-description {
+  max-width: 440px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.hero-cta .cta-btn {
+  background-color: #fff;
+  border: 2px solid #065fd4;
+  color: #065fd4;
+  padding: 0.2rem 1.5rem;
+  margin-bottom: 3rem;
+}
+/* End hero cta section */
+
+.main_container {
+  background-color: var(--secondary-background-color);
+  height: 100%;
+  padding: 1rem 0.5rem;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+  
 .video_card {
   width: 270px;
 }
